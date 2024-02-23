@@ -1,7 +1,7 @@
-Files,dynamic_class,combination,OriginalFolder,replicate,TopStrain,BotStrain,type,media,flow,MaxFr,deltaT,Btype,Exclude,pos,register,stardist,rotangle,stardist_fails,Process,Note,StageX,StageY,PxinUmX,PxinUmY,BarrierYincrop,chamberbox1,chamberbox2,chamberbox3,chamberbox4
-b02.zip,switched dominance,agr-I vs agr-III,E:\Julian\barrier\Folder20221117_20221116_barrC_topMW2_botLAC_2.5mlPh_50percTSB_1120,b02,MW2,LAC,Compete,TSB50,0.25,,5,bar,,8,Done,Done,0.5,,10618,,-63515.59516,-37742.72767,0.065,0.065,760,527,347,713,1467
-b03.zip,unstable dual activation,agr-I vs agr-II,E:\Julian\barrier\Folder20221118_20221117_barrC_topLAC_bot502a_2.5mlPh_50percTSB_lastPosSingles_1140,b03,LAC,502a,Compete,TSB50,0.25,250,5,bar,,29,Done,Done,0.25,,10672,,-55537.13005,-39137.54106,0.065,0.065,753,593,323,747,1467
-b14.zip,delayed dual activation,agr-I vs agr-II,E:\Julian\barrier\Folder20230212_20230125_mulitBarrierChip_R1_L-502a_R-LAC_P1-27+64_R2_L-LAC_R-502a_P28-63_1737,b14,LAC,502a,Compete,TSB50,0.25,105,15,bar,,30,Done,Done,-93,,12090,,-59892.3828,-34289.97056,0.065,0.065,713,820,377,740,1467
-b16.zip,initial dominance,agr-I vs agr-IV,E:\Julian\barrier\Folder20230215_20230213_mulitBarrierChip_R1-L-LAC-R-MNTG-P1-32+66_R2-L-MNTG-R-LAC-P33-65_1447,b16,MNTG,LAC,Compete,TSB50,0.25,120,15,bar,,49,Done,Done,-91,,12166,,-58403.87741,-38595.14786,0.065,0.065,773,573,387,707,1467
-b19.zip,stable dominance,agr-I vs agr-III,E:\Julian\barrier\Folder20230128_20230125_mulitBarrierChip_1414,b19,MW2,LAC,Compete,TSB50,0.25,,5,bar,,51,Done,Done,-91,,11969,,-47656.48269,-34944.61279,0.065,0.065,720,707,283,747,1467
-b20.zip,stable dual activation,agr-I vs agr-IV,E:\Julian\barrier\Folder20230304_20230301_mulitBar_r1-R-LAC-L-MNTG_r2-R-MNTG-L-MNTG_r3-R-LAC-L-502a_1356,b20,LAC,MNTG,Compete,TSB50,0.25,270,15,bar,,7,Done,Done,-92,,12401,,-74765.61197,-33582.55513,0.065,0.065,773,767,377,740,1467
+replicate,pos,TopStrain,BotStrain,type,media,flow,Btype,MaxFr,Exclude,dt,Notes,Process,rotangle,StageX,StageY,PxinUmX,PxinUmY,BarrierYincrop,chamberbox1,chamberbox2,chamberbox3,chamberbox4,register,stardist,stardist_fails
+b02,8,MW2,LAC,Compete,TSB50,0.25,bar,,,5,,10618,0.5,-63515.59516,-37742.72767,0.065,0.065,760,527,347,713,1467,Done,Done,
+b03,29,LAC,502a,Compete,TSB50,0.25,bar,250,,5,,10672,0.25,-55537.13005,-39137.54106,0.065,0.065,753,593,323,747,1467,Done,Done,
+b14,30,LAC,502a,Compete,TSB50,0.25,bar,105,,15,,12090,-93,-59892.3828,-34289.97056,0.065,0.065,713,820,377,740,1467,Done,Done,
+b16,49,MNTG,LAC,Compete,TSB50,0.25,bar,120,,15,,12166,-91,-58403.87741,-38595.14786,0.065,0.065,773,573,387,707,1467,Done,Done,
+b19,51,MW2,LAC,Compete,TSB50,0.25,bar,,,5,,11969,-91,-47656.48269,-34944.61279,0.065,0.065,720,707,283,747,1467,Done,Done,
+b20,7,LAC,MNTG,Compete,TSB50,0.25,bar,270,,15,,12401,-92,-74765.61197,-33582.55513,0.065,0.065,773,767,377,740,1467,Done,Done,

@@ -146,7 +146,7 @@ for repi = 1:length(allrep)
         % get rotation angle
         rotangle = meta.rotangle(metai);
         % get deltaT
-        deltaT = meta.deltaT(metai);
+        dt = meta.dt(metai);
         
         %init VideoWriter
         cd(savedir)
@@ -640,7 +640,7 @@ for repi = 1:length(allrep)
                      'AnchorPoint', 'CenterTop', 'BoxOpacity', 0));
             
                 %create time string to burn into image for movie
-                time1=(ti-1)*deltaT;
+                time1=(ti-1)*dt;
                 tH=floor(time1/60);
                 tM=time1-tH*60;
                 if tH<10
@@ -755,7 +755,7 @@ function meta = preprocessMetaTable(metaname)
     % Read and preprocess the metadata table
     opts = detectImportOptions(metaname);
     % Define columns and their desired types
-    charColumns = {'Exclude', 'Note', 'register', 'stardist', 'stardist_fails'};
+    charColumns = {'Exclude', 'Notes', 'register', 'stardist', 'stardist_fails'};
     doubleColumns = {'MaxFr', 'Process', 'StageX', 'StageY', 'PxinUmX', 'PxinUmY', 'BarrierYincrop', 'chamberbox1', 'chamberbox2', 'chamberbox3', 'chamberbox4'};
     
     % Update VariableTypes for specified columns
