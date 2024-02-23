@@ -1,0 +1,56 @@
+{
+  "masterdir": "E:\\Julian\\barrier\\sharing\\",
+  "savedirname": "savesV1",
+  "metacsv": "meta_processing.csv",
+  "n_channel": 2,
+  "bitdepth": 16,
+  "posL": [],
+  "rotangle": [],
+  "downsampleF": 0.15,
+  "downsampleF_chamberdetect": 0.15,
+  "thr1": [
+    0,
+    0.9
+  ],
+  "thr2": [
+    0.002,
+    0.85
+  ],
+  "thr3": [
+    0.002,
+    0.1
+  ],
+  "OOFcutoff": 4,
+  "chambelong": 12,
+  "chamw": 8,
+  "chamb_binthresh": 0.35,
+  "chname1": "Ch1",
+  "chname2": "Ch2",
+  "chname3": "Ch3",
+  "col1": [
+    0.95,
+    0.99,
+    0
+  ],
+  "col2": [
+    1,
+    0,
+    0
+  ],
+  "col3": [
+    0,
+    0,
+    1
+  ],
+  "vidfr": 10,
+  "vidsz": [
+    1024,
+    1024
+  ],
+  "burn_chamb": 1,
+  "liveimages": 0.5,
+  "stardistmodeldir": "D://GitHub/azimages/julian/stardist/models/stardist-bar",
+  "flims": true,
+  "ramsize": 8000,
+  "ramlimit": 0.85
+}

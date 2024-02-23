@@ -1,0 +1,20 @@
+stages:
+  - publish
+
+image: python:3
+
+publish:
+  stage: publish
+  
+  variables:
+    TWINE_USERNAME: $PRODUCTION_USERNAME
+    TWINE_PASSWORD: $PRODUCTION_PASSWORD
+  
+  script:
+    - pip install twine
+    - python setup.py sdist bdist_wheel
+    - twine check dist/*
+    - twine upload dist/*
+ 
+  only:
+    - tags

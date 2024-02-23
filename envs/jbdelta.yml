@@ -1,0 +1,29 @@
+name: jbdelta
+channels:
+  - conda-forge
+dependencies:
+  - scikit-image>=0.18
+  - opencv>=4.1
+  - tensorflow-gpu=2.6.0
+  - ffmpeg-python
+  - requests
+  - python=3.9
+  - cudnn=8 
+  - cudatoolkit=11
+  - h5py
+  - ipykernel
+  - scipy
+  - matplotlib
+  - numpy=1.22.3
+  - seaborn
+  - napari
+  - pandas
+  - qt
+  - scikit-image
+  - scikit-learn
+  - dask-image
+  - pathlib
+  - pip
+  - jupyterlab
+  - pip:
+    - elasticdeform
