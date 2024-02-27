@@ -1,5 +1,6 @@
 # azimages by Julian Bär
-Repository of AZinkernagel lab for time-lapse microscopy image analysis code associated with the publication: .
+Repository of AZinkernagel lab for time-lapse microscopy image analysis code associated with the publication: Single-cell approach dissecting *agr* quorum sensing dynamics in *Staphylococcus aureus* by Julian Bär, Samuel G. V. Charlton, Andrea Tarnutzer, Giovanni Stefano Ugolini, Eleonora Secchi and Annelies S. Zinkernagel 
+.
 
 # General info
 For both mother-machine (mm) and connected-chamber pipelines, the general workflow is similar. Both require a metadata csv file which describes the included images and tracks pipeline progress. Initial steps (config and preprocessing) are performed in MATLAB and segmentation and tracking in Python. Both  pipelines start by creating a config file to store variables used by subsequent scripts followed by a preprocessing script to idenfity regions of interest (filled microfluidic chamber), register image to compensate for stage drift, extract ROI and copy in a new folder and create an overview movie. Subsequently, StarDist2D segmentation is performed for all images and, for certain mother-machine experiments, cell tracking with DeLTA2.0 is performend. The python jupyter books run in dedicated conda environments. The yaml files to create the envs can be found in the folder `envs`. 
